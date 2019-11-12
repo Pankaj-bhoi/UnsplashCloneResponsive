@@ -1,0 +1,43 @@
+/* @media (min-width: 576px) {
+  .search-button{
+    width: 50px;
+  }
+ } */
+.inputBox:focus{
+  outline: none;
+  top: 17px;
+  right: 71px;
+}
+.inputBox:hover{
+  border: 1px solid #ccc;
+}
+.submitButton:hover{
+    color: #111;
+    background-color: rgb(255, 255, 255)!important;
+    border-color: #999!important;
+}
+.right-menu{
+  margin-right: 5px;
+}
+.dots{
+  margin-right:50px ;
+  margin-top: 2px;
+}
+.login{
+  margin-right: 25px;
+}
+.class{
+  background-color: rgb(255, 255, 255);
+}
+.input-group{
+  margin-top: 5px;
+}
+input::placeholder{
+  padding-left: 40px;
+}
+.input-group-append{
+  position: absolute;
+  z-index: 1;
+  padding-left: 20px;
+  padding-top: 12px;
+}

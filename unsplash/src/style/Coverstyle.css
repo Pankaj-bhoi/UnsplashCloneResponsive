@@ -1,0 +1,64 @@
+body{
+  overflow-x: hidden;
+}
+.set0{
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  transform: translateY(50%);
+}
+.main-s{
+  height: 45px;
+}
+.jumbotron {
+  text-align: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  height: 100vh;
+}
+.main-search{
+  margin-left: -20px;
+  margin: 75px auto;
+}
+.bg-cover {
+  background-image: url('../images/cover11.jpg');
+  background-size: cover;
+  color: white;
+  background-position: center center;
+  position: relative;
+}
+.cover-photo {
+    width: 100vw;
+    position: relative;
+  }
+.cover{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cover-content {
+  position: absolute;
+  top: 25%;
+  left:20%;
+} 
+.search-icon{
+  background-color: transparent;
+}
+.search-input{
+  width:600px;
+}
+.coverSearchBox {
+  position:absolute;
+  width: 800px;
+  height: 54px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  color: #111;
+  padding-left: 55px;
+  font-size: 14px;
+}
+.trending{
+  margin-top:55px;
+  color: #fff;
+}
